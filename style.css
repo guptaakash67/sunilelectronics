@@ -1,0 +1,73 @@
+
+h1
+{
+    color: black;
+    background-color: rgb(252, 216, 140);    
+}
+@keyframes blink
+{
+    50% {
+        opacity: 0;
+        }
+}
+h2
+{
+    color: rgb(241, 168, 241);
+    text-align: center;
+    animation:blink 3s linear infinite;
+    
+        
+}
+
+h4
+{
+    color: gold;
+}
+
+h3{
+    color: black;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+p
+{
+    color: rgb(248, 245, 245);
+    text-align: center;
+    font-style: initial;
+    font-size: 3ch;
+}
+
+h5
+{
+    text-align:center;
+    color: greenyellow;
+    font-size: larger;
+}
+
+body
+{
+   
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 3000px;
+    color: rgb(247, 174, 80);
+    font-size: 3ch;   
+}
+
+
+h6{
+    color: silver;
+    font-size: 3ch;
+    text-align: center;
+}
+
+h9{
+    text-align: center;
+}
+
+.blk{
+    animation:blink 2s linear infinite;
+}
+   
